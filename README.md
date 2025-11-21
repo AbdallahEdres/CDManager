@@ -68,6 +68,14 @@ public class TodoEntity: NSManagedObject, ManagedEntity {
 ```
 
 ---
+Or simply let Xcode generate the entities, and then just extend them to conform to ManagedEntity
+```swift
+
+extension TodoEntity: ManagedEntity {}
+
+```
+
+---
 
 ## 🗃 2. Initialize the Repository
 
