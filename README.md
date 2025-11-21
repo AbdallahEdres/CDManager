@@ -207,6 +207,12 @@ func makeTestContainer() -> NSPersistentContainer {
 ```
 
 ---
+🎯 Related Demo Project
+
+A full working demo using CDManager is available here: https://github.com/AbdallahEdres/CDManagerToDoDemo
+
+
+---
 
 # ❤️ Contributing
 Pull requests are welcome! If you’d like to enhance the package, feel free to contribute.
