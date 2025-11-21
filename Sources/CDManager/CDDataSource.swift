@@ -6,7 +6,7 @@
 //
 
 import CoreData
-final class CDDataSource<T: ManagedEntity> {
+public final class CDDataSource<T: ManagedEntity> {
 
     private let context: NSManagedObjectContext
     
@@ -61,7 +61,7 @@ final class CDDataSource<T: ManagedEntity> {
         return (try context.fetch(request))
     }
     
-    private public func save() throws{
+    private  func save() throws{
         if context.hasChanges{
             try context.save()
         }
