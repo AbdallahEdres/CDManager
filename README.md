@@ -37,13 +37,13 @@ Focused on:
 Add the package to your Xcode project:
 
 ```
-https://github.com/USERNAME/CDManager.git
+https://github.com/AbdallahEdres/CDManager.git
 ```
 
 Or inside `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/USERNAME/CDManager.git", from: "1.0.0")
+.package(url: "https://github.com/AbdallahEdres/CDManager.git", from: "1.0.0")
 ```
 
 ---
